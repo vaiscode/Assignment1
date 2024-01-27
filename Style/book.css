@@ -1,0 +1,9 @@
+body{
+    background-image: url("");
+    background-size: cover;
+    background-position: fixed;
+}
+
+#footer{
+    margin-top: 3em;
+}

@@ -1,0 +1,16 @@
+body{
+    background-image: url("../images/Backgrounds/Homebg.jpg");
+    background-size: cover;
+    background-position: fixed;
+}
+
+.p-box{
+   color: black;
+   width: fit-content;
+   margin-top: 1em;
+
+}
+
+#footer{
+    margin-top: 6em;
+}

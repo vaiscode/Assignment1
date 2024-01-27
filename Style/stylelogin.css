@@ -1,0 +1,30 @@
+body{
+    background-image: url("../images/Backgrounds/Background.jpg");
+    background-size: cover;
+    background-position: fixed;
+}
+
+
+
+.p-box{
+    margin: auto;
+    margin-top: 6em;
+    background-color: #fff;
+    border: 2px solid grey;
+    width: fit-content;
+    padding: 2em;
+    
+}
+
+#input{
+    width: 100%;
+}
+
+#btn{
+    color: #fff;
+    background-color: #015ca2;
+}
+
+#footer{
+    margin-top: 16em;
+}
