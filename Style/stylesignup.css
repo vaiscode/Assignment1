@@ -24,7 +24,13 @@ body{
     width: 100%;
 }
 
+#phone{
+    width: 100%;
+}
 
+#Password{
+    width: 100%;
+}
 
 #btn{
     color: #fff;

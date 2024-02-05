@@ -54,23 +54,27 @@
     <br><br>
     <input type="text" placeholder="Last Name" id="input">
     <br><br>
-    <input type="email" placeholder="Email" id="email">
+    <input type="text" placeholder="Email" id="email">
     <br>
     <span id="validation"></span>
     <br>
-    <input type="phone" placeholder="Phone" id="input">
-    <br><br>
+    <input type="text" placeholder="Phone" id="phone">
+    <br>
+    <span id="phonevld"></span>
+    <br>
     <label>Gender:</label>
     <input type="radio">
     <label>Male</label>
     <input type="radio">
     <label>Female</label>
     <hr><br>
-    <input type="password" placeholder="Password" id="input">
+    <input type="password" placeholder="Password" id="Password">
+    <br>
+    <span id="pwdvld"></span>
+    <br>
+    <input type="password" placeholder="Confirm Password" id="Password">
     <br><br>
-    <input type="password" placeholder="Confirm Password" id="input">
-    <br><br>
-    <button id="btn" onclick="return validate()">SIGN UP</button>
+    <button id="btn" onclick=" validate(); phonevalidate();return pwdvalidate()">SIGN UP</button>
     <br><br>
     <p style="font-size: small;font-weight: bold;">Already have an account ? <a href="./Login.html">Click here</a>  to sign in</p>
      </form>
